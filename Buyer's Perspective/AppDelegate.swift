@@ -11,9 +11,15 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        freelanceStore.addUsers()
+//          let rootviewController = window?.rootViewController as! UINavigationController
+//        let MainVC = rootviewController?.topViewController as?  ViewController
+//        MainVC?.flHandling = freeLanceStore()
         // Override point for customization after application launch.
         return true
     }

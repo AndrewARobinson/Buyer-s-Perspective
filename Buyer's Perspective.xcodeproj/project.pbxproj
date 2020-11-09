@@ -16,6 +16,16 @@
 		BA7634C1254BA3130060D7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7634BF254BA3130060D7DA /* LaunchScreen.storyboard */; };
 		BA7634CC254BA3140060D7DA /* Buyer_s_PerspectiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7634CB254BA3140060D7DA /* Buyer_s_PerspectiveTests.swift */; };
 		BA7634D7254BA3140060D7DA /* Buyer_s_PerspectiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7634D6254BA3140060D7DA /* Buyer_s_PerspectiveUITests.swift */; };
+		BA9E586725510BE400925795 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9E586625510BE400925795 /* ImageCollectionViewCell.swift */; };
+		BA9F237A2550580700C13711 /* FreelanceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9F23792550580700C13711 /* FreelanceDataSource.swift */; };
+		BA9F237F2550586B00C13711 /* FreeLancerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9F237E2550586B00C13711 /* FreeLancerTableViewCell.swift */; };
+		BAA3BEAA2551D1E200493655 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3BEA92551D1E200493655 /* CheckOutViewController.swift */; };
+		BAAB19632550B893000A8F25 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB19622550B892000A8F25 /* DetailedViewController.swift */; };
+		BAC8769125506A5D009341B0 /* extendedUiview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8769025506A5D009341B0 /* extendedUiview.swift */; };
+		BAC8769625506A77009341B0 /* extendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8769525506A77009341B0 /* extendedViewController.swift */; };
+		BAC876B02550A823009341B0 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC876AF2550A823009341B0 /* GradientView.swift */; };
+		BAF91C5325546D3100D855C9 /* freelancerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF91C5225546D3100D855C9 /* freelancerProfile.swift */; };
+		BAF91C582554734A00D855C9 /* FreelancerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF91C572554734A00D855C9 /* FreelancerStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		BA7634D2254BA3140060D7DA /* Buyer's PerspectiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buyer's PerspectiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7634D6254BA3140060D7DA /* Buyer_s_PerspectiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buyer_s_PerspectiveUITests.swift; sourceTree = "<group>"; };
 		BA7634D8254BA3140060D7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9E586625510BE400925795 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = Extensions/ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA9F23792550580700C13711 /* FreelanceDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreelanceDataSource.swift; sourceTree = "<group>"; };
+		BA9F237E2550586B00C13711 /* FreeLancerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeLancerTableViewCell.swift; sourceTree = "<group>"; };
+		BAA3BEA92551D1E200493655 /* CheckOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
+		BAAB19622550B892000A8F25 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		BAC8769025506A5D009341B0 /* extendedUiview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extendedUiview.swift; sourceTree = "<group>"; };
+		BAC8769525506A77009341B0 /* extendedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extendedViewController.swift; sourceTree = "<group>"; };
+		BAC876AF2550A823009341B0 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		BAF91C5225546D3100D855C9 /* freelancerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freelancerProfile.swift; sourceTree = "<group>"; };
+		BAF91C572554734A00D855C9 /* FreelancerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreelancerStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +121,22 @@
 		BA7634B0254BA30F0060D7DA /* Buyer's Perspective */ = {
 			isa = PBXGroup;
 			children = (
+				BAA3BEA82551D1B400493655 /* ViewControllers */,
+				BA9E586625510BE400925795 /* ImageCollectionViewCell.swift */,
+				BAC876BA2550A852009341B0 /* GradientView */,
+				BAC8769D25506A83009341B0 /* Extensions */,
 				BA7634B1254BA30F0060D7DA /* AppDelegate.swift */,
 				BA7634B3254BA30F0060D7DA /* SceneDelegate.swift */,
+				BAF91C5225546D3100D855C9 /* freelancerProfile.swift */,
 				BA7634B5254BA30F0060D7DA /* ViewController.swift */,
+				BAAB19622550B892000A8F25 /* DetailedViewController.swift */,
 				BA7634B7254BA30F0060D7DA /* Main.storyboard */,
 				BA7634BD254BA3130060D7DA /* Assets.xcassets */,
 				BA7634BF254BA3130060D7DA /* LaunchScreen.storyboard */,
 				BA7634C2254BA3130060D7DA /* Info.plist */,
 				BA7634BA254BA30F0060D7DA /* Buyer_s_Perspective.xcdatamodeld */,
+				BA9F23792550580700C13711 /* FreelanceDataSource.swift */,
+				BA9F237E2550586B00C13711 /* FreeLancerTableViewCell.swift */,
 			);
 			path = "Buyer's Perspective";
 			sourceTree = "<group>";
@@ -129,6 +157,32 @@
 				BA7634D8254BA3140060D7DA /* Info.plist */,
 			);
 			path = "Buyer's PerspectiveUITests";
+			sourceTree = "<group>";
+		};
+		BAA3BEA82551D1B400493655 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAA3BEA92551D1E200493655 /* CheckOutViewController.swift */,
+				BAF91C572554734A00D855C9 /* FreelancerStore.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BAC8769D25506A83009341B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BAC8769525506A77009341B0 /* extendedViewController.swift */,
+				BAC8769025506A5D009341B0 /* extendedUiview.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BAC876BA2550A852009341B0 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				BAC876AF2550A823009341B0 /* GradientView.swift */,
+			);
+			path = GradientView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +315,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA3BEAA2551D1E200493655 /* CheckOutViewController.swift in Sources */,
+				BA9F237F2550586B00C13711 /* FreeLancerTableViewCell.swift in Sources */,
+				BA9E586725510BE400925795 /* ImageCollectionViewCell.swift in Sources */,
+				BA9F237A2550580700C13711 /* FreelanceDataSource.swift in Sources */,
+				BAAB19632550B893000A8F25 /* DetailedViewController.swift in Sources */,
+				BAF91C5325546D3100D855C9 /* freelancerProfile.swift in Sources */,
 				BA7634BC254BA30F0060D7DA /* Buyer_s_Perspective.xcdatamodeld in Sources */,
 				BA7634B6254BA30F0060D7DA /* ViewController.swift in Sources */,
 				BA7634B2254BA30F0060D7DA /* AppDelegate.swift in Sources */,
 				BA7634B4254BA30F0060D7DA /* SceneDelegate.swift in Sources */,
+				BAF91C582554734A00D855C9 /* FreelancerStore.swift in Sources */,
+				BAC8769125506A5D009341B0 /* extendedUiview.swift in Sources */,
+				BAC8769625506A77009341B0 /* extendedViewController.swift in Sources */,
+				BAC876B02550A823009341B0 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
