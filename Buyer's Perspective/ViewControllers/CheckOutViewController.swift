@@ -20,6 +20,7 @@ class CheckOutViewController: UIViewController {
         payPalTick.circulaRaiduisBB()
         applePayTick.circulaRaiduisBB()
         payNowButton.roundCornersNoShado()
+        print("Testing")
         // Do any additional setup after loading the view.
     }
 
